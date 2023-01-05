@@ -1,21 +1,43 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #E5E5E5 ;
     font-family: 'Roboto', sans-serif;
+}
+.bg-grey{
+    background-color: #E5E5E5;
+}
+.bg-white {
+    background-color: #FFFFFF;
 }
 .container{
     width: 100%;
     max-width: 1100px;
     margin:0 auto;
 }
+.top-line a{
+    text-align:center;
+    width: 60px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+.logo{
+    padding: 20px 0;
+}
 a{
     text-decoration: none;
-}
-.line{
-    border-bottom:1px solid #EFEFEF;
-    border-bottom-width:;
 }
 ul li{
     list-style-type: none;
 }
+p.right{
+    float:right;
+}
+p.left{
+    float:left;
+}
+table{
+    border: 1px solid #EFEFEF;
+}
+
