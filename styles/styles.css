@@ -101,7 +101,7 @@ li a {
     background-color: transparent;
 }
 
-.promo h1 {
+h1 {
     padding-top: 192px;
     font-weight: 700;
     font-size: 48px;
@@ -263,7 +263,6 @@ table {
     left: 405px;
     top: 1775px;
     background: #FFFFFF;
-    border-style: 10px solid #EFEFEF;
     border-color: #333333;
     text-align: center;
     vertical-align: middle;
@@ -286,10 +285,10 @@ table td {
 .footer p {
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
-    color: #828282;
     line-height: 64px;
+    color: #828282;
 }
+
 .footer-categories{
     display: flex;
     flex-direction: row;
@@ -316,7 +315,8 @@ table td {
     line-height: 25px;
     color: #828282;
 }
-.category h6{
+
+h6{
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
@@ -325,7 +325,7 @@ table td {
     border-bottom: 1px solid #EFEFEF;
     padding-bottom: 30px;
 }
-div.recently-viewed{
+.recently-viewed{
     padding-bottom: 80px;
 }
 .top-line a:visited{
